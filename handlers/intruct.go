@@ -25,7 +25,7 @@ func ImageMaxUpscale(discordMsgId string, msgHash string) error {
 }
 
 func ImageReset(discordMsgId string, msgHash string) error {
-	err := services.Reset(discordMsgId, msgHash)
+	err := services.ReRoll(discordMsgId, msgHash)
 	return err
 }
 

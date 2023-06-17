@@ -11,9 +11,11 @@ golang语言实现, 代理 MidJourney 的discord频道，实现api形式调用AI
 - [ ] 支持 Imagine、V、Blend 图片生成进度
 - [ ] 支持中文 prompt 翻译，需配置百度翻译或 gpt
 - [ ] prompt 敏感词判断，支持覆盖调整
-- [ ] 任务队列，默认队列10，并发3。可参考 [MidJourney订阅级别](https://docs.midjourney.com/docs/plans) 调整mj.queue
+- [ ] 任务队列，默认队列10，并发3。可参考 [MidJourney订阅级别](https://docs.midjourney.com/docs/plans) 调整DISCORD_QUEUE_SIZE
 - [ ] user-token 连接 wss，可以获取错误信息和完整功能
 - [ ] 支持 discord域名(server、cdn、wss)反代，配置 mj.ng-discord
+- [ ] 暴露 swagger API文档
+- [ ] 支持多个频道，配置 DISCORD_CHANNEL_IDS
 
 
 ## 使用前提

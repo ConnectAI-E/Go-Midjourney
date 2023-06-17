@@ -108,7 +108,7 @@ func Variate(index int64, messageId string, messageHash string) error {
 	return err
 }
 
-func Reset(messageId string, messageHash string) error {
+func ReRoll(messageId string, messageHash string) error {
 	requestBody := ReqResetDiscord{
 		Type:          3,
 		GuildId:       config.GetConfig().DISCORD_SERVER_ID,
