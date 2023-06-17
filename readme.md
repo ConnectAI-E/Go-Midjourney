@@ -16,7 +16,7 @@ golang语言实现, 代理 MidJourney 的discord频道，实现api形式调用AI
 - [ ] 支持 discord域名(server、cdn、wss)反代，配置 mj.ng-discord
 - [ ] 暴露 swagger API文档
 - [ ] 支持多个频道，配置 DISCORD_CHANNEL_IDS
-
+- [ ] 同事支持回调模式和进度查询模式
 
 ## 使用前提
 1. 注册 MidJourney，创建自己的频道，参考 https://docs.midjourney.com/docs/quick-start
