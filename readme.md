@@ -4,24 +4,24 @@ golang语言实现, 代理 MidJourney 的discord频道，实现api形式调用AI
 
 
 ## 支持功能
-- [x] 支持 Imagine 指令和相关U、V操作
+- [x] 支持`/Imagine`指令和相关U、V操作
 - [x] Imagine 时支持添加图片base64，作为垫图
-- [x] 支持 Describe 指令，根据图片生成 prompt
-- [x] 支持 Blend 指令，多个图片混合
-- [ ] 支持 Imagine、V、Blend 图片生成进度
+- [x] 支持 `Describe`指令，根据图片生成 prompt
+- [x] 支持 `Blend` 指令，多个图片混合
+- [x] 支持 Imagine、V、Blend 时的图片生成进度
 - [ ] 支持中文 prompt 翻译，需配置百度翻译或 gpt
 - [ ] prompt 敏感词判断，支持覆盖调整
 - [ ] 任务队列，默认队列10，并发3。可参考 [MidJourney订阅级别](https://docs.midjourney.com/docs/plans) 调整mj.queue
 - [ ] user-token 连接 wss，可以获取错误信息和完整功能
-- [ ] 支持 discord域名(server、cdn、wss)反代，配置 mj.ng-discord
+- [ ] 支持 discord域名(server、cdn、wss)反代，
 
 
 ## 使用前提
 1. 注册 MidJourney，创建自己的频道，参考 https://docs.midjourney.com/docs/quick-start
-2. 获取用户Token、服务器ID、频道ID：[获取方式](./docs/discord-params.md)
+2. 获取用户Token、服务器ID、频道ID：[获取方式](https://github.com/ConnectAI-E/go-midjourney/wiki/discord-%E9%85%8D%E7%BD%AE%E8%AF%A6%E7%BB%86%E6%8C%87%E5%AF%BC)
 
 ## 风险须知
-1. 建议使用bot模式，避免封禁
+1. 建议使用bot模式，避免账号封禁
 
 
 ## 配置项
