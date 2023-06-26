@@ -39,6 +39,11 @@ CB_URL: 获取到discord中的图片资源传输给你的业务服务接口
 MJ_PORT: 16007
 ```
 
+## 沟通部署问题
+
+<img width="220" alt="image" src="https://github.com/ConnectAI-E/MidJourney-Web/assets/50035229/f19d3d79-55c4-451a-9691-d90769c43cb4">
+
+
 
 
 
