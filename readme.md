@@ -9,6 +9,8 @@ golang语言实现, 代理 MidJourney 的discord频道，实现api形式调用AI
 - [x] 支持 Describe 指令，根据图片生成 prompt
 - [x] 支持 Blend 指令，多个图片混合
 - [ ] 支持 Imagine、V、Blend 图片生成进度
+- [ ] 支持 ZoomOut 扩图
+- [ ] 支持 Shorten 指令
 - [ ] 支持中文 prompt 翻译，需配置百度翻译或 gpt
 - [ ] prompt 敏感词判断，支持覆盖调整
 - [ ] 任务队列，默认队列10，并发3。可参考 [MidJourney订阅级别](https://docs.midjourney.com/docs/plans) 调整DISCORD_QUEUE_SIZE
